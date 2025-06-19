@@ -76,8 +76,8 @@ By using this software, you accept all risks. Always deploy to test environments
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-org/did-system.git
-   cd did-system
+   git clone https://github.com/Guap-Codes/Decentralized-Identity-System.git
+   cd Decentralized-Identity-System
 ```
 
 2. Install dependencies:
