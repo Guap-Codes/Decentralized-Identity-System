@@ -119,13 +119,13 @@ Server will run at http://localhost:3000
 ### API Endpoints
 
 * DID Management
-```bash
+
 Endpoint	                | Method   | Description
 ----------------------------|----------|----------------------
 /create-did	                | POST	   | Create new DID
 /resolve-did/:did           | GET	   | Resolve DID document
 /update-did	                | PUT	   | Update existing DID
-```
+
 
 * Credential Operations
 
@@ -138,28 +138,28 @@ Endpoint	                | Method   | Description
 
 
 * Zero-Knowledge Proofs
-```bash
+
 Endpoint	                | Method   | Description
 ----------------------------|----------|--------------------------
 /generate-proof	            | POST	   | Generate ZKP for Merkle proof
 /verify-proof	            | POST	   | Verify ZKP
-```
+
 
 * Wallet Management
-```bash
+
 Endpoint	                | Method   |  Description
 ----------------------------|----------|----------------------------
 /create-wallet	            | POST	   |  Generate new wallet
 /sign-message	            | POST	   |  Sign message with private key
-```
+
 
 * IPFS Storage
-```bash
+
 Endpoint	                 | Method	|  Description
 -----------------------------|----------|-----------------------------
 /store-document	             | POST	    |  Store document on IPFS
 /retrieve-document/:ipfs_hash| GET	    |  Retrieve document from IPFS
-```
+
 
 ### Smart Contracts
 
