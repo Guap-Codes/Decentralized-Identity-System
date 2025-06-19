@@ -209,15 +209,15 @@ did-system/
 
 Contributions are welcome! Please follow these steps:
 
-    Fork the repository
+  -  Fork the repository
 
-    Create your feature branch (git checkout -b feature/your-feature)
+  -  Create your feature branch (git checkout -b feature/your-feature)
 
-    Commit your changes (git commit -am 'Add some feature')
+  -  Commit your changes (git commit -am 'Add some feature')
 
-    Push to the branch (git push origin feature/your-feature)
+  -  Push to the branch (git push origin feature/your-feature)
 
-    Open a pull request
+  -  Open a pull request
 
 ## License
 
