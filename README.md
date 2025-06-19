@@ -128,14 +128,14 @@ Endpoint	                | Method   | Description
 ```
 
 * Credential Operations
-```bash
+
 Endpoint	                | Method   | Description
 ----------------------------|----------|-----------------------------
 /issue-credential	        | POST	   | Issue verifiable credential
 /revoke-credential          | POST     | Revoke credential
 /verify-credential          | POST	   | Verify credential validity
 /batch-issue-credentials    | POST     | Issue multiple credentials
-```
+
 
 * Zero-Knowledge Proofs
 ```bash
