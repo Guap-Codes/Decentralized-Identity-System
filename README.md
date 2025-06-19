@@ -77,8 +77,7 @@ By using this software, you accept all risks. Always deploy to test environments
 1. Clone the repository:
    ```bash
    git clone https://github.com/Guap-Codes/Decentralized-Identity-System.git
-   cd Decentralized-Identity-System
-```
+   cd Decentralized-Identity-System```
 
 2. Install dependencies:
   ```bash
@@ -121,42 +120,42 @@ Server will run at http://localhost:3000
 
 * DID Management
 ```bash
-Endpoint	                  | Method   | Description
+Endpoint	                | Method   | Description
 ----------------------------|----------|----------------------
 /create-did	                | POST	   | Create new DID
-/resolve-did/:did           | GET	     | Resolve DID document
-/update-did	                | PUT	     | Update existing DID
+/resolve-did/:did           | GET	   | Resolve DID document
+/update-did	                | PUT	   | Update existing DID
 ```
 
 * Credential Operations
 ```bash
-Endpoint	                  | Method	 | Description
+Endpoint	                | Method   | Description
 ----------------------------|----------|-----------------------------
-/issue-credential	          | POST	   | Issue verifiable credential
-/revoke-credential          |	POST	   | Revoke credential
-/verify-credential          |	POST	   | Verify credential validity
+/issue-credential	        | POST	   | Issue verifiable credential
+/revoke-credential          | POST     | Revoke credential
+/verify-credential          | POST	   | Verify credential validity
 /batch-issue-credentials    | POST     | Issue multiple credentials
 ```
 
 * Zero-Knowledge Proofs
 ```bash
-Endpoint	                  | Method	 | Description
+Endpoint	                | Method   | Description
 ----------------------------|----------|--------------------------
 /generate-proof	            | POST	   | Generate ZKP for Merkle proof
-/verify-proof	              | POST	   | Verify ZKP
+/verify-proof	            | POST	   | Verify ZKP
 ```
 
 * Wallet Management
 ```bash
-Endpoint	                  | Method	 |  Description
+Endpoint	                | Method   |  Description
 ----------------------------|----------|----------------------------
 /create-wallet	            | POST	   |  Generate new wallet
-/sign-message	              | POST	   |  Sign message with private key
+/sign-message	            | POST	   |  Sign message with private key
 ```
 
 * IPFS Storage
 ```bash
-Endpoint	                   | Method	  |  Description
+Endpoint	                 | Method	|  Description
 -----------------------------|----------|-----------------------------
 /store-document	             | POST	    |  Store document on IPFS
 /retrieve-document/:ipfs_hash| GET	    |  Retrieve document from IPFS
@@ -166,11 +165,11 @@ Endpoint	                   | Method	  |  Description
 
 Contracts are located in contracts/ directory:
 
-    DIDRegistry.sol: Manage DID documents
+   * DIDRegistry.sol: Manage DID documents
 
-    CredentialRegistry.sol: Handle verifiable credentials
+   * CredentialRegistry.sol: Handle verifiable credentials
 
-    Paymaster.sol: Sponsor transactions
+   * Paymaster.sol: Sponsor transactions
 
 ## Deployment
 
