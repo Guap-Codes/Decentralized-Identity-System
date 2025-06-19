@@ -66,7 +66,7 @@ By using this software, you accept all risks. Always deploy to test environments
 ### Prerequisites
 
 - Rust 1.70+
-- Node.js 18+
+- solc 0.5+
 - IPFS node (local or Infura)
 - zkSync testnet account
 - Foundry (for contracts)
