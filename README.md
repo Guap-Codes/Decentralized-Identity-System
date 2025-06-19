@@ -8,13 +8,13 @@ A robust and secure identity management platform built on blockchain technology,
 ##  ⚠️ Important Notice
 This Decentralized Identity (DID) System is experimental software under active development.
 
-    Not audited - Use at your own risk
+  -  Not audited - Use at your own risk
 
-    Testnets only - Not ready for mainnet
+  -  Testnets only - Not ready for mainnet
 
-    APIs may change without warning
+  -  APIs may change without warning
 
-    No guarantees of security or stability
+  -  No guarantees of security or stability
 
 By using this software, you accept all risks. Always deploy to test environments and never use with real assets or sensitive data.
 
@@ -48,7 +48,6 @@ By using this software, you accept all risks. Always deploy to test environments
   - Verify credentials across different blockchains
 
 ## Technology Stack
-```bash
 
 | Component             | Technology                          |
 |-----------------------|-------------------------------------|
@@ -59,7 +58,7 @@ By using this software, you accept all risks. Always deploy to test environments
 | **Zero-Knowledge**    | Groth16 zk-SNARKs                   |
 | **Key Management**    | secp256k1 with Keccak-256           |
 | **Smart Contracts**   | Solidity (Foundry)                  |
-```
+
 
 
 ## Getting Started
