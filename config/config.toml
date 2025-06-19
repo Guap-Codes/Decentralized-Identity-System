@@ -1,0 +1,19 @@
+[network]
+zksync_rpc_url = "https://sepolia.era.zksync.dev"
+private_key = "your_wallet_private_key"
+
+[contracts]
+did_registry = "0xYourDIDContractAddress"
+credential_registry = "0xYourCredentialContractAddress"
+paymaster = "0xYourPaymasterContractAddress"
+
+[ipfs]
+node_url = "/ip4/127.0.0.1/tcp/5001" # Local node
+# node_url = "https://ipfs.infura.io:5001" # For Infura
+
+[poseidon]
+# Poseidon parameters for BN254 field (generated once and shared across system)
+# Use `generate_poseidon_config()` during setup to create these
+params = "base64_encoded_poseidon_parameters"
+# Version of parameter set for compatibility checks
+version = "1.0.0"

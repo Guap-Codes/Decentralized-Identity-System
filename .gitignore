@@ -1,0 +1,100 @@
+# Standard Rust ignores
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Build artifacts
+**/*.wasm
+**/*.so
+**/*.dylib
+**/*.a
+**/*.lib
+**/*.dll
+
+# Logs and diagnostics
+*.log
+*.pdb
+*.rls
+*.su
+*.ilk
+*.exp
+
+# Coverage reports
+**/coverage/
+*.profraw
+
+# Documentation
+/doc/
+**/docs/book/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Foundry/Forge artifacts
+cache/
+out/
+forge-artifacts/
+contracts/out/
+contracts/cache/
+contracts/.ds_store
+
+# IPFS and local storage
+/data/
+/ipfs/
+*.ipld
+*.car
+poseidon_config.cache
+
+# ZKP circuit files
+*.zkey
+*.ptau
+*.r1cs
+*.wtns
+
+
+# Key material and sensitive files
+*.pem
+*.key
+*.cert
+*.jks
+*.keystore
+*.priv
+*.pub
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.txt
+
+# Test artifacts
+**/.fleet/
+**/.history/
+**/test-results/
+
+# Benchmarking data
+benches/results/
+*.bench
+
+# MacOS specific
+**/.DS_Store

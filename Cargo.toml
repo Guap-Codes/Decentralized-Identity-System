@@ -1,0 +1,65 @@
+[package]
+name = "did-system"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1.0", features = ["full"] }
+zksync-web3-rs = "0.2.1"
+ethers = "2.0.14"  
+ethers-core = "2.0.14"
+ethers-contract = "2.0.14"
+k256 = { version = "0.13.4", features = ["ecdsa"] }
+ring = "0.16"
+ipfs-api-backend-hyper = "0.6"
+config = "0.13"
+log = "0.4"
+env_logger = "0.9"
+ark-ec = "0.5.0"
+ark-groth16 = "0.5.0"
+ark-ff = "0.5.0"
+ark-poly = "0.5.0"
+ark-serialize = "0.5.0"
+ark-crypto-primitives = { version = "0.5.0", features = ["r1cs"] }
+ark-r1cs-std = "0.5.0"
+ark-std = "0.5.0"
+ark-snark = "0.5.1"
+ark-relations = "0.5.1"
+ark-bn254 = "0.5.0"
+base64 = "0.13.1"
+web3 = "0.19.0"
+secp256k1 = "0.30.0"
+futures = "0.3.31"
+bytes = "1.10.1"
+chrono = "0.4.41"
+rand = "0.8"
+num-bigint = "0.4.6"
+dotenv = "0.15.0"
+
+# JSON Web Tokens (JWT) for authentication
+jsonwebtoken = "8.0"    # For JWT-based authentication
+
+# Utilities
+generic-array = "1.2.0"  # For working with byte arrays
+thiserror = "1.0"       # For custom error handling
+anyhow = "1.0"          # For flexible error handling
+once_cell = "1.21.3"
+
+# Web framework
+#axum = {version = "0.8.4", features = ["json", "macros"]}            # For building the API server
+#axum-macros = "0.5.0"
+axum = { version = "0.7.5", features = ["json", "macros"] }
+axum-macros = "0.4.1"
+tower = "0.5.2"           # Middleware utilities for axum
+hyper = "1.6"          # HTTP server for axum
+tower-http = "0.6.6"      # Additional HTTP utilities for axum
+
+
+
+[dev-dependencies]
+mockito = "0.31"
+cargo-test = "0.1"
+tokio-test = "0.4"      # For async testing
